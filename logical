@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=56,b=45;
+clrscr();
+printf("%d",(a<b)&&!(a!=b));
+printf("%d",(a==b)||(a!=b));
+printf("%d",(a>b)&&(a==b));
+getch ();
+}
